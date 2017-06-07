@@ -10,6 +10,7 @@
 		B42A099C1EE7E3E3008AB6E3 /* Test+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A09991EE7E3E3008AB6E3 /* Test+CoreDataClass.m */; };
 		B42A099D1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */; };
 		B42A09A01EE7E6C6008AB6E3 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */; };
+		B42A09A31EE80508008AB6E3 /* Person_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A09A21EE80508008AB6E3 /* Person_ViewController.m */; };
 		B457B7ED1E72389B00165EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EC1E72389B00165EFE /* main.m */; };
 		B457B7F01E72389C00165EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EF1E72389C00165EFE /* AppDelegate.m */; };
 		B457B7F31E72389C00165EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7F21E72389C00165EFE /* ViewController.m */; };
@@ -47,6 +48,8 @@
 		B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Test+CoreDataProperties.m"; sourceTree = "<group>"; };
 		B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
 		B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
+		B42A09A11EE80508008AB6E3 /* Person_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person_ViewController.h; sourceTree = "<group>"; };
+		B42A09A21EE80508008AB6E3 /* Person_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person_ViewController.m; sourceTree = "<group>"; };
 		B457B7E81E72389B00165EFE /* YECoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YECoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B457B7EC1E72389B00165EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B457B7EE1E72389B00165EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				B457B7EF1E72389C00165EFE /* AppDelegate.m */,
 				B457B7F11E72389C00165EFE /* ViewController.h */,
 				B457B7F21E72389C00165EFE /* ViewController.m */,
+				B42A09A11EE80508008AB6E3 /* Person_ViewController.h */,
+				B42A09A21EE80508008AB6E3 /* Person_ViewController.m */,
 				B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */,
 				B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */,
 				B457B7F41E72389C00165EFE /* Main.storyboard */,
@@ -310,6 +315,7 @@
 				B42A099C1EE7E3E3008AB6E3 /* Test+CoreDataClass.m in Sources */,
 				B457B8251E72394300165EFE /* Person+CoreDataClass.m in Sources */,
 				B42A099D1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m in Sources */,
+				B42A09A31EE80508008AB6E3 /* Person_ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,48 +37,56 @@
     curPage = 1;
     
     
+    NSArray *Arrs = @[@"添加", @"删除", @"修改", @"获取"];
+    
+    [Arrs enumerateObjectsUsingBlock:^(id obj, NSUInteger index, BOOL *stop){
+        [self createClickButtonTitle:obj x: (80 * index) + 20 tag:7777 + index];
+    }];
+}
+
+
+
+- (void)createClickButtonTitle:(NSString *)title x:(CGFloat)x tag: (NSUInteger)tag {
+    
     UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 160, 44)];
-    [btn setTitle:@"添加数据" forState:UIControlStateNormal];
+    [btn setTitle:title forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
-    [btn addTarget:self action:@selector(addAction) forControlEvents:UIControlEventTouchUpInside];
-    btn.center = CGPointMake(self.view.center.x, self.view.center.y - 100);
+    [btn addTarget:self action:@selector(ClickAction:) forControlEvents:UIControlEventTouchUpInside];
+    btn.frame = CGRectMake( x , 120, 60, 30);
+    btn.backgroundColor = [UIColor orangeColor];
+    btn.tag = tag;
     [self.view addSubview:btn];
-    
-    UIButton *delBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 160, 44)];
-    [delBtn setTitle:@" 删除数据" forState:UIControlStateNormal];
-    [delBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [delBtn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
-    [delBtn addTarget:self action:@selector(deleteAction) forControlEvents:UIControlEventTouchUpInside];
-    delBtn.center = CGPointMake(self.view.center.x, self.view.center.y - 50);
-    [self.view addSubview:delBtn];
-    
-    UIButton *resetPageBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 160, 44)];
-    [resetPageBtn setTitle:@" 重置页码" forState:UIControlStateNormal];
-    [resetPageBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [resetPageBtn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
-    [resetPageBtn addTarget:self action:@selector(resetPageAction) forControlEvents:UIControlEventTouchUpInside];
-    resetPageBtn.center = CGPointMake(self.view.center.x, self.view.center.y);
-    [self.view addSubview:resetPageBtn];
-    
-    
-    UIButton *changeBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 160, 44)];
-    [changeBtn setTitle:@" 修改数据" forState:UIControlStateNormal];
-    [changeBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [changeBtn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
-    [changeBtn addTarget:self action:@selector(changeAction) forControlEvents:UIControlEventTouchUpInside];
-    changeBtn.center = CGPointMake(self.view.center.x, self.view.center.y + 50);
-    [self.view addSubview:changeBtn];
-    
-    UIButton *getBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 160, 44)];
-    [getBtn setTitle:@"获取数据" forState:UIControlStateNormal];
-    [getBtn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
-    [getBtn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
-    [getBtn addTarget:self action:@selector(getAction) forControlEvents:UIControlEventTouchUpInside];
-    getBtn.center = CGPointMake(self.view.center.x, self.view.center.y + 100);
-    [self.view addSubview:getBtn];
-        
 }
+
+
+
+- (void)ClickAction:(UIButton *)sender{
+    switch (sender.tag - 7777) {
+        case 0:{
+            [self addAction];
+            break;
+        }
+        case 1:{
+            [self deleteAction];
+            
+            break;
+        }
+        case 2:{
+            [self changeAction];
+            
+            break;
+        }
+        case 3:{
+            [self getAction];
+            
+            break;
+        }
+        default:
+            break;
+    }
+}
+
 
 - (void)addAction {
     
@@ -173,11 +181,6 @@
         NSLog(@"obj.username : %@ | model.age : %ld | score : %ld | sex : %@ | %@", obj.username, (long)model.age, [obj.score integerValue], model.sex ? @"男" : @"女", model.address);
         
     }
-
-    
-    
 }
-
-
 
 @end
