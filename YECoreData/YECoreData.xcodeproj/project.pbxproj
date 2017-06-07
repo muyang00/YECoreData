@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42A099C1EE7E3E3008AB6E3 /* Test+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A09991EE7E3E3008AB6E3 /* Test+CoreDataClass.m */; };
+		B42A099D1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */; };
+		B42A09A01EE7E6C6008AB6E3 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */; };
 		B457B7ED1E72389B00165EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EC1E72389B00165EFE /* main.m */; };
 		B457B7F01E72389C00165EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EF1E72389C00165EFE /* AppDelegate.m */; };
 		B457B7F31E72389C00165EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7F21E72389C00165EFE /* ViewController.m */; };
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42A09981EE7E3E3008AB6E3 /* Test+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Test+CoreDataClass.h"; sourceTree = "<group>"; };
+		B42A09991EE7E3E3008AB6E3 /* Test+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Test+CoreDataClass.m"; sourceTree = "<group>"; };
+		B42A099A1EE7E3E3008AB6E3 /* Test+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Test+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Test+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
+		B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
 		B457B7E81E72389B00165EFE /* YECoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YECoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B457B7EC1E72389B00165EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B457B7EE1E72389B00165EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +98,10 @@
 		B457B7DF1E72389B00165EFE = {
 			isa = PBXGroup;
 			children = (
+				B42A09981EE7E3E3008AB6E3 /* Test+CoreDataClass.h */,
+				B42A09991EE7E3E3008AB6E3 /* Test+CoreDataClass.m */,
+				B42A099A1EE7E3E3008AB6E3 /* Test+CoreDataProperties.h */,
+				B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */,
 				B457B8211E72394300165EFE /* Person+CoreDataClass.h */,
 				B457B8221E72394300165EFE /* Person+CoreDataClass.m */,
 				B457B8231E72394300165EFE /* Person+CoreDataProperties.h */,
@@ -117,6 +130,8 @@
 				B457B7EF1E72389C00165EFE /* AppDelegate.m */,
 				B457B7F11E72389C00165EFE /* ViewController.h */,
 				B457B7F21E72389C00165EFE /* ViewController.m */,
+				B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */,
+				B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */,
 				B457B7F41E72389C00165EFE /* Main.storyboard */,
 				B457B7FA1E72389C00165EFE /* Assets.xcassets */,
 				B457B7FC1E72389C00165EFE /* LaunchScreen.storyboard */,
@@ -288,10 +303,13 @@
 			files = (
 				B457B7F91E72389C00165EFE /* YECoreData.xcdatamodeld in Sources */,
 				B457B7F31E72389C00165EFE /* ViewController.m in Sources */,
+				B42A09A01EE7E6C6008AB6E3 /* UserInfoModel.m in Sources */,
 				B457B7F01E72389C00165EFE /* AppDelegate.m in Sources */,
 				B457B7ED1E72389B00165EFE /* main.m in Sources */,
 				B457B8261E72394300165EFE /* Person+CoreDataProperties.m in Sources */,
+				B42A099C1EE7E3E3008AB6E3 /* Test+CoreDataClass.m in Sources */,
 				B457B8251E72394300165EFE /* Person+CoreDataClass.m in Sources */,
+				B42A099D1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +541,7 @@
 				B457B81A1E72389C00165EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B457B81B1E72389C00165EFE /* Build configuration list for PBXNativeTarget "YECoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +550,7 @@
 				B457B81D1E72389C00165EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B457B81E1E72389C00165EFE /* Build configuration list for PBXNativeTarget "YECoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +559,7 @@
 				B457B8201E72389C00165EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
