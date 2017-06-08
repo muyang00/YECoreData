@@ -11,6 +11,11 @@
 		B42A099D1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */; };
 		B42A09A01EE7E6C6008AB6E3 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */; };
 		B42A09A31EE80508008AB6E3 /* Person_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42A09A21EE80508008AB6E3 /* Person_ViewController.m */; };
+		B446AA991EE8F91A0075BED4 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B446AA971EE8F91A0075BED4 /* AddViewController.m */; };
+		B446AA9A1EE8F91A0075BED4 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B446AA981EE8F91A0075BED4 /* AddViewController.xib */; };
+		B446AA9E1EE8FEA80075BED4 /* PerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B446AA9C1EE8FEA80075BED4 /* PerTableViewCell.m */; };
+		B446AA9F1EE8FEA80075BED4 /* PerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B446AA9D1EE8FEA80075BED4 /* PerTableViewCell.xib */; };
+		B446AAA81EE92FD10075BED4 /* PerInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B446AAA71EE92FD10075BED4 /* PerInfoModel.m */; };
 		B457B7ED1E72389B00165EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EC1E72389B00165EFE /* main.m */; };
 		B457B7F01E72389C00165EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7EF1E72389C00165EFE /* AppDelegate.m */; };
 		B457B7F31E72389C00165EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B457B7F21E72389C00165EFE /* ViewController.m */; };
@@ -48,8 +53,16 @@
 		B42A099B1EE7E3E3008AB6E3 /* Test+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Test+CoreDataProperties.m"; sourceTree = "<group>"; };
 		B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoModel.h; sourceTree = "<group>"; };
 		B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
-		B42A09A11EE80508008AB6E3 /* Person_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person_ViewController.h; sourceTree = "<group>"; };
-		B42A09A21EE80508008AB6E3 /* Person_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person_ViewController.m; sourceTree = "<group>"; };
+		B42A09A11EE80508008AB6E3 /* Person_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person_ViewController.h; path = ../../Person_ViewController.h; sourceTree = "<group>"; };
+		B42A09A21EE80508008AB6E3 /* Person_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person_ViewController.m; path = ../../Person_ViewController.m; sourceTree = "<group>"; };
+		B446AA961EE8F91A0075BED4 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		B446AA971EE8F91A0075BED4 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		B446AA981EE8F91A0075BED4 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		B446AA9B1EE8FEA80075BED4 /* PerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerTableViewCell.h; sourceTree = "<group>"; };
+		B446AA9C1EE8FEA80075BED4 /* PerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerTableViewCell.m; sourceTree = "<group>"; };
+		B446AA9D1EE8FEA80075BED4 /* PerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerTableViewCell.xib; sourceTree = "<group>"; };
+		B446AAA61EE92FD10075BED4 /* PerInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerInfoModel.h; sourceTree = "<group>"; };
+		B446AAA71EE92FD10075BED4 /* PerInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerInfoModel.m; sourceTree = "<group>"; };
 		B457B7E81E72389B00165EFE /* YECoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YECoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B457B7EC1E72389B00165EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B457B7EE1E72389B00165EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +111,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B446AA921EE8EADC0075BED4 /* PersonMVC */ = {
+			isa = PBXGroup;
+			children = (
+				B446AA941EE8EADC0075BED4 /* Models */,
+				B446AA951EE8EADC0075BED4 /* Views */,
+				B446AA931EE8EADC0075BED4 /* Controllers */,
+			);
+			path = PersonMVC;
+			sourceTree = "<group>";
+		};
+		B446AA931EE8EADC0075BED4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B42A09A11EE80508008AB6E3 /* Person_ViewController.h */,
+				B42A09A21EE80508008AB6E3 /* Person_ViewController.m */,
+				B446AA961EE8F91A0075BED4 /* AddViewController.h */,
+				B446AA971EE8F91A0075BED4 /* AddViewController.m */,
+				B446AA981EE8F91A0075BED4 /* AddViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B446AA941EE8EADC0075BED4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B446AAA61EE92FD10075BED4 /* PerInfoModel.h */,
+				B446AAA71EE92FD10075BED4 /* PerInfoModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B446AA951EE8EADC0075BED4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B446AA9B1EE8FEA80075BED4 /* PerTableViewCell.h */,
+				B446AA9C1EE8FEA80075BED4 /* PerTableViewCell.m */,
+				B446AA9D1EE8FEA80075BED4 /* PerTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B457B7DF1E72389B00165EFE = {
 			isa = PBXGroup;
 			children = (
@@ -133,10 +187,9 @@
 				B457B7EF1E72389C00165EFE /* AppDelegate.m */,
 				B457B7F11E72389C00165EFE /* ViewController.h */,
 				B457B7F21E72389C00165EFE /* ViewController.m */,
-				B42A09A11EE80508008AB6E3 /* Person_ViewController.h */,
-				B42A09A21EE80508008AB6E3 /* Person_ViewController.m */,
 				B42A099E1EE7E6C6008AB6E3 /* UserInfoModel.h */,
 				B42A099F1EE7E6C6008AB6E3 /* UserInfoModel.m */,
+				B446AA921EE8EADC0075BED4 /* PersonMVC */,
 				B457B7F41E72389C00165EFE /* Main.storyboard */,
 				B457B7FA1E72389C00165EFE /* Assets.xcassets */,
 				B457B7FC1E72389C00165EFE /* LaunchScreen.storyboard */,
@@ -281,6 +334,8 @@
 			files = (
 				B457B7FE1E72389C00165EFE /* LaunchScreen.storyboard in Resources */,
 				B457B7FB1E72389C00165EFE /* Assets.xcassets in Resources */,
+				B446AA9A1EE8F91A0075BED4 /* AddViewController.xib in Resources */,
+				B446AA9F1EE8FEA80075BED4 /* PerTableViewCell.xib in Resources */,
 				B457B7F61E72389C00165EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,8 +361,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B446AAA81EE92FD10075BED4 /* PerInfoModel.m in Sources */,
 				B457B7F91E72389C00165EFE /* YECoreData.xcdatamodeld in Sources */,
 				B457B7F31E72389C00165EFE /* ViewController.m in Sources */,
+				B446AA991EE8F91A0075BED4 /* AddViewController.m in Sources */,
+				B446AA9E1EE8FEA80075BED4 /* PerTableViewCell.m in Sources */,
 				B42A09A01EE7E6C6008AB6E3 /* UserInfoModel.m in Sources */,
 				B457B7F01E72389C00165EFE /* AppDelegate.m in Sources */,
 				B457B7ED1E72389B00165EFE /* main.m in Sources */,
